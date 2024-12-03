@@ -42,10 +42,10 @@ function App() {
                 {/* ---hỗ trợ và cài đặt --- */}
             </div>
             {/* -------- content bên phải--------*/}
-            <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px]">
+            <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-64 mr-0 my-0 p-8 ">
                 {/*----- header-------*/}
-                <div className="flex justify-center">
-                    <div className="bg-[#7A5Af8] w-[1096px] m-[32px] h-[300px] ml-[224px] p-8 rounded-2xl  ">
+                <div className="flex ">
+                    <div className="bg-[#7A5Af8] w-[1096px] h-[300px] p-8 rounded-2xl  ">
                         <div className="flex text-white ">
                             {/*----- left-------*/}
                             <div>
@@ -84,13 +84,11 @@ function App() {
                         </div>
                     </div>
                 </div>
-                {/*----- main--------- */}
 
-                <div className=""></div>
-                {/*----- Nội dung bài học------- */}
+                {/* Nội dung bài học- */}
                 <div className="">
                     {phases.map((phase) => (
-                        <div>
+                        <div className="">
                             <div>{phase.phase_name}</div>
                             <p>{phase.phase_description}</p>
                             <div>
