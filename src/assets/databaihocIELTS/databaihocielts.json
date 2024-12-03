@@ -1,0 +1,1102 @@
+{
+    "heading": {
+        "course_id": "rm_course_01",
+        "name": "IELTS Speaking nền tảng",
+        "input_band_score": 4.0,
+        "output_band_score": 5.0,
+        "description": "Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong đề thi. Nâng cao vốn từ vựng và ngữ pháp để đáp ứng đầu ra 5.0",
+        "background_color_code": "1",
+        "background_image": "https://cdn.pixabay.com/photo/2016/10/11/16/14/capybara-1732020_960_720.jpg",
+        "number_of_tasks": 68,
+        "number_of_completed_tasks": 0
+    },
+    "body": {
+        "current_phase_id": "rm_phases_01",
+        "current_section_id": "rm_sections_01",
+        "max_task_id": "rm_tasks_01",
+        "max_task_order": 1.0,
+        "current_task_id": "rm_tasks_01",
+        "phases": [
+            {
+                "phase_id": "rm_phases_01",
+                "phase_name": "Introduction to IELTS Speaking Test",
+                "phase_description": "Get started on your IELTS Speaking journey, learn the format, scoring criteria, and essential tips to navigate the test confidently.",
+                "tasks_sections": [
+                    {
+                        "sectionId": "rm_sections_01",
+                        "name": "Introducing Personal Information",
+                        "description": "Get started on your IELTS Speaking journey, learn the format, scoring criteria, and essential tips to navigate the test confidently.",
+                        "isPremium": false,
+                        "progress": 0,
+                        "tasks": [
+                            {
+                                "id": "rm_tasks_01",
+                                "name": "Học Part 1: Where is your hometown?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 1.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_1",
+                                    "lesson_name": "WHERE IS YOUR HOMETOWN?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_02",
+                                "name": "Nạp cụm: Describing places",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 2.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_18"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_03",
+                                "name": "Nạp cụm: Structures to talk about location and direction",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 3.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_19"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_04",
+                                "name": "Học Part 1: What do you like about your hometown?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 4.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_2",
+                                    "lesson_name": "WHAT DO YOU LIKE/DISLIKE ABOUT YOUR HOMETOWN?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_05",
+                                "name": "Nạp cụm: Structures to talk about preferences",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 5.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_20"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_06",
+                                "name": "Nạp cụm: Features of places",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 6.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_21"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_07",
+                                "name": "Học Part 1: Is your hometown a popular place for tourists?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 7.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_3",
+                                    "lesson_name": "IS YOUR HOMETOWN A POPULAR PLACE FOR TOURISTS?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_08",
+                                "name": "Nạp cụm: Structures to talk about opinion:",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 8.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_22"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_09",
+                                "name": "Nạp cụm: Tourist attractions",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 9.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_23"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_10",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 10.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_11",
+                                "name": "Thi thử part 1",
+                                "type": "MOCK_TEST_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 11.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_test.png",
+                                "input_params": {
+                                    "type": "PRACTICE",
+                                    "test_id": "test_32"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_12",
+                                "name": "Học part 2 (học dẫn dắt)",
+                                "type": "LESSON_PART_TWO",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 12.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_264",
+                                    "lesson_name": "DESCRIBE YOUR HOMETOWN"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_13",
+                                "name": "Nạp cụm: Collocations",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 13.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_24"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_14",
+                                "name": "Nạp cụm: Structures",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 14.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_25"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_15",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 15.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_16",
+                                "name": "Học part 2 (học nhanh)",
+                                "type": "FAST_TRACK",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 16.0,
+                                "estimate_time": 10,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_264",
+                                    "lesson_name": "DESCRIBE YOUR HOMETOWN"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_17",
+                                "name": "Thi thử part 2",
+                                "type": "REAL_TEST_PART_TWO",
+                                "is_unlock_premium": true,
+                                "is_premium": false,
+                                "task_order": 17.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_test.png",
+                                "input_params": {
+                                    "type": "DEMO_TEST",
+                                    "test_id": "test_67"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sectionId": "rm_sections_02",
+                        "name": "Introducing personal information (continued)",
+                        "description": "Get started on your IELTS Speaking journey, learn the format, scoring criteria, and essential tips to navigate the test confidently.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": [
+                            {
+                                "id": "rm_tasks_18",
+                                "name": "Học part 1: Where do you live?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 18.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_268",
+                                    "lesson_name": "WHERE DO YOU LIVE?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_19",
+                                "name": "Nạp cụm: Location and Surroundings",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 19.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_29"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_20",
+                                "name": "Học part 1: What do you like most about your home?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 20.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_269",
+                                    "lesson_name": "WHAT DO YOU LIKE MOST ABOUT YOUR HOME?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_21",
+                                "name": "Nạp cụm: Features of a home",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 21.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_30"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_22",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 22.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_23",
+                                "name": "Học part 1: How long have you lived there?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 23.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_270",
+                                    "lesson_name": "HOW LONG HAVE YOU LIVED THERE?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_24",
+                                "name": "Nạp cụm: Time Expressions",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 24.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_31"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_25",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 25.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_26",
+                                "name": "Học part 1: Do you have a small family or a big family?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 26.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_265",
+                                    "lesson_name": "DO YOU HAVE A SMALL FAMILY OR A BIG FAMILY?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_27",
+                                "name": "Nạp cụm: Family size and type",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 27.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_26"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_28",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 28.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_29",
+                                "name": "Học part 1: Who are you close to in your family?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 29.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_266",
+                                    "lesson_name": "WHO ARE YOU CLOSE TO IN YOUR FAMILY?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_30",
+                                "name": "Nạp cụm: Family relationship",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 30.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_27"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_31",
+                                "name": "Học part 1: Do you often spend time with your family?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 31.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_267",
+                                    "lesson_name": "DO YOU OFTEN SPEND TIME WITH YOUR FAMILY?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_32",
+                                "name": "Nạp cụm: Family activities",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 32.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_28"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_33",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 33.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_34",
+                                "name": "Thi thử part 1",
+                                "type": "MOCK_TEST_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 34.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_test.png",
+                                "input_params": {
+                                    "type": "PRACTICE",
+                                    "test_id": "test_68"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "phase_id": "rm_phases_02",
+                "phase_name": "Part 1: Language reflex and Clarity",
+                "phase_description": "Familiarize learners with the IELTS Speaking format, and improve learners' language reflex and confidence through basic sentence starters and colloquial expressions",
+                "tasks_sections": [
+                    {
+                        "sectionId": "rm_sections_03",
+                        "name": "Daily activities",
+                        "description": "Familiarize learners with the IELTS Speaking format, and improve learners' language reflex and confidence through basic sentence starters and colloquial expressions",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": [
+                            {
+                                "id": "rm_tasks_35",
+                                "name": "Học part 1: What is your typical morning routine?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 35.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_274",
+                                    "lesson_name": "What is your typical morning routine?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_36",
+                                "name": "Nạp cụm: Adverbs of frequency",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 36.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_38"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_37",
+                                "name": "Học part 1: Do you think it is important to have a daily routine?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 37.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_275",
+                                    "lesson_name": "Do you think it is important to have a daily routine?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_38",
+                                "name": "Nạp cụm: Time Management",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 38.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_39"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_39",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 39.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_40",
+                                "name": "Học part 1: How has your daily routine changed over the years?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 40.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_276",
+                                    "lesson_name": "What is your typical morning routine?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_41",
+                                "name": "Nạp cụm: Personal Growth or Changes",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 41.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_40"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_42",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 42.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_43",
+                                "name": "Học part 1: What do you often do in your spare time/ free time?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 43.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_277",
+                                    "lesson_name": "What do you often do in your spare time/ free time?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_44",
+                                "name": "Nạp cụm: Leisure activities",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 44.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_41"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_45",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 45.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_46",
+                                "name": "Học part 1: Is there a hobby you’ve recently picked up or would like to try?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 46.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_278",
+                                    "lesson_name": "Is there a hobby you’ve recently picked up or would like to try?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_47",
+                                "name": "Nạp cụm: Future plans & Benefits of Hobbies",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 47.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_42"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_48",
+                                "name": "Học part 1: Do you enjoy pastimes that involve being with others or spending time alone?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 48.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_279",
+                                    "lesson_name": "Do you enjoy pastimes that involve being with others or spending time alone?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_49",
+                                "name": "Nạp cụm: Social vs. solitary activities",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 49.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_43"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_50",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 50.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_51",
+                                "name": "Thi thử part 1",
+                                "type": "MOCK_TEST_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 51.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_test.png",
+                                "input_params": {
+                                    "type": "PRACTICE",
+                                    "test_id": "test_73"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sectionId": "rm_sections_04",
+                        "name": "Personal Interests and Preferences",
+                        "description": "Familiarize learners with the IELTS Speaking format, and improve learners' language reflex and confidence through basic sentence starters and colloquial expressions",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": [
+                            {
+                                "id": "rm_tasks_52",
+                                "name": "Học part 1: Do you like playing or watching sports?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 52.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_280",
+                                    "lesson_name": "Do you like playing or watching sports?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_53",
+                                "name": "Nạp cụm: Expression of preference",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 53.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_44"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_54",
+                                "name": "Học part 1: What sports are popular in your country?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 54.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_281",
+                                    "lesson_name": "What sports are popular in your country?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_55",
+                                "name": "Nạp cụm: Popularity and Trends, Reasons for Popularity",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 55.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_45"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_56",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 56.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_57",
+                                "name": "Học part 1: Have you ever tried a new sport before?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 57.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_282",
+                                    "lesson_name": "Have you ever tried a new sport before?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_58",
+                                "name": "Nạp cụm: Experience and Feelings",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 58.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_46"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_59",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 59.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_60",
+                                "name": "Học part 1: What kinds of movies or shows do you enjoy?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 60.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_283",
+                                    "lesson_name": "What kinds of movies or shows do you enjoy?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_61",
+                                "name": "Nạp cụm: Film genres",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 61.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_47"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_62",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 62.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_63",
+                                "name": "Học part 1: Do you prefer foreign films or films made in your country?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 63.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_284",
+                                    "lesson_name": "Do you prefer foreign films or films made in your country?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_64",
+                                "name": "Nạp cụm: Quality and Variety",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 64.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_48"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_65",
+                                "name": "Học part 1: Are there any movies you are looking forward to watching soon?",
+                                "type": "LESSON_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 65.0,
+                                "estimate_time": 30,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_lesson.png",
+                                "input_params": {
+                                    "lesson_id": "lesson_285",
+                                    "lesson_name": "Are there any movies you are looking forward to watching soon?"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_66",
+                                "name": "Nạp cụm: Anticipation and Excitement, Release Timing",
+                                "type": "VOCABULARY",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 66.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_vocab.png",
+                                "input_params": {
+                                    "set_id": "set_49"
+                                }
+                            },
+                            {
+                                "id": "rm_tasks_67",
+                                "name": "Phát âm IPA",
+                                "type": "IPA",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 67.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_ipa.png",
+                                "input_params": {}
+                            },
+                            {
+                                "id": "rm_tasks_68",
+                                "name": "Thi thử part 1",
+                                "type": "MOCK_TEST_PART_ONE",
+                                "is_unlock_premium": true,
+                                "is_premium": true,
+                                "task_order": 68.0,
+                                "estimate_time": 15,
+                                "is_completed": false,
+                                "image": "https://smedia.stepup.edu.vn/ielts/icon/icon_test.png",
+                                "input_params": {
+                                    "type": "PRACTICE",
+                                    "test_id": "test_74"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sectionId": "rm_sections_05",
+                        "name": "Talking about experiences",
+                        "description": "Familiarize learners with the IELTS Speaking format, and improve learners' language reflex and confidence through basic sentence starters and colloquial expressions",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    },
+                    {
+                        "sectionId": "rm_sections_06",
+                        "name": "People in your life",
+                        "description": "Familiarize learners with the IELTS Speaking format, and improve learners' language reflex and confidence through basic sentence starters and colloquial expressions",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    }
+                ]
+            },
+            {
+                "phase_id": "rm_phases_03",
+                "phase_name": "Part 2: Descriptive language and extended speech",
+                "phase_description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                "tasks_sections": [
+                    {
+                        "sectionId": "rm_sections_07",
+                        "name": "Describing an Object",
+                        "description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    },
+                    {
+                        "sectionId": "rm_sections_08",
+                        "name": "Describing a Person",
+                        "description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    },
+                    {
+                        "sectionId": "rm_sections_09",
+                        "name": "Describing an Place",
+                        "description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    },
+                    {
+                        "sectionId": "rm_sections_10",
+                        "name": "Describing an Event",
+                        "description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    },
+                    {
+                        "sectionId": "rm_sections_11",
+                        "name": "Describing a Memory",
+                        "description": "Enable learners to deliver structured and engaging responses in Part 2 via storytelling techniques and descriptive expressions.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    }
+                ]
+            },
+            {
+                "phase_id": "rm_phases_04",
+                "phase_name": "Part 3: Expand and Explain",
+                "phase_description": "Learn to structure responses, develop opinions, and use appropriate vocabulary to impress the examiner.",
+                "tasks_sections": [
+                    {
+                        "sectionId": "rm_sections_12",
+                        "name": "Social Media",
+                        "description": "Learn to structure responses, develop opinions, and use advanced vocabulary to impress the examiner.",
+                        "isPremium": true,
+                        "progress": 0,
+                        "tasks": []
+                    }
+                ]
+            }
+        ]
+    }
+}

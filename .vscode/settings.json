@@ -1,7 +1,9 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "emmet.includeLanguages": { "javascript": "javascriptreact" }, // viet tat noi dung emmet trong file JvaScript giong voi HTML
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.preferences": {}
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "emmet.includeLanguages": { "javascript": "javascriptreact" }, // viet tat noi dung emmet trong file JvaScript giong voi HTML
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.preferences": {},
+    "editor.fontFamily": "'FiraCode-Retina'",
+    "terminal.integrated.fontFamily": "monospace"
 }

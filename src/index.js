@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import './fonts/Jura/static/Jura-Bold.ttf';
+import './fonts/Jura/static/Jura-Medium.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
