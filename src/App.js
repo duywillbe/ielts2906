@@ -4,35 +4,40 @@ import { useState } from 'react';
 import ielts_coach from './assets/images/IELTS Coach.svg';
 import target_tiny from './assets/icon/target-tiny.svg';
 import avt_lesson from './assets/icon/avt_lesson.svg';
+import microphone from './assets/images/microphone.svg';
+import home_line from './assets/icon/home-line.svg';
+import dethi from './assets/icon/dethi.svg';
+import phongthi from './assets/icon/phongthi.svg';
+import chart from './assets/icon/bar-chart-square-02.svg';
 
 function App() {
   const [phases] = useState(datalesson.body.phases);
 
   return (
     <div className="flex ">
-      {/* ---------side bar left bên trái -------*/}
+      {/* ------------------------------------Side bar left -----------------------------*/}
       <div className=" pt-[32px] pl-[24px] w-[280px] pl-6 pt-8 justify-start h-[100%] fixed">
         <div className=" flex gap-[4px]">
-          <img src={require('./assets/images/microphone.svg').default} alt="mySvgImage" />
+          <img src={microphone} alt="mySvgImage" />
           <img src={ielts_coach} alt="mySvgImage" />
         </div>
         {/* ---menulist --- */}
         <div className="flex flex-col content-between">
           <div className="flex flex-col mt-[12px]">
             <a className="flex mt-5" href="#!">
-              <img src={require('./assets/icon/home-line.svg').default} alt="mySvgImage" />
+              <img src={home_line} alt="mySvgImage" />
               <p className="ml-[12px] font-semibold">Lộ Trình</p>
             </a>
             <a className="flex mt-5" href="#!">
-              <img src={require('./assets/icon/dethi.svg').default} alt="mySvgImage" />
+              <img src={dethi} alt="mySvgImage" />
               <p className="ml-[12px] font-semibold">Chủ Đề </p>
             </a>
             <a className="flex mt-5" href="#!">
-              <img src={require('./assets/icon/phongthi.svg').default} alt="mySvgImage" />
+              <img src={phongthi} alt="mySvgImage" />
               <p className="ml-[12px] font-semibold">Phòng Tập</p>
             </a>
             <a className="flex mt-5" href="#!">
-              <img src={require('./assets/icon/bar-chart-square-02.svg').default} alt="mySvgImage" />
+              <img src={chart} alt="mySvgImage" />
               <p className="ml-[12px] font-semibold">Phòng thi</p>
             </a>
             <a className="flex mt-5" href="#!">
@@ -44,13 +49,13 @@ function App() {
         </div>
         {/* ---hỗ trợ và cài đặt --- */}
       </div>
-      {/* ----------- content bên phải-----------*/}
+      {/* ----------------------------------- Content right------------------------------*/}
       <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-[224px]">
-        {/*------------- header----------*/}
+        {/*--------------------- Header------------------------*/}
         <div className="">
           <div className="bg-[#7A5Af8] w-[1096px] mt-8 mb-0 mx-8 h-[300px] p-8 rounded-2xl  ">
             <div className="flex text-white ">
-              {/*----- left-------*/}
+              {/*----- header left--------*/}
               <div>
                 <h1 className="leading-[1.2] text-3xl font-semibold ">IELTS Speaking nền tảng</h1>
                 <p className="text-white leading-[1.2] mt-4 font-medium">
@@ -78,7 +83,7 @@ function App() {
                   />
                 </button>
               </div>
-              {/*----- right-------*/}
+              {/*----- header right-------*/}
               <img
                 src={require('./assets/images/avatar.svg').default}
                 alt="mySvgImage"
@@ -87,20 +92,23 @@ function App() {
             </div>
           </div>
         </div>
-        {/*----- Nội dung bài học------- */}
+        {/*--------------- Nội dung bài học------------------- */}
         <div className="pt-0 pb-8 px-8 ">
+          {/*--------part --------- */}
           {phases.map((phase) => (
             <div>
               <div className="font-semibold text-2xl mt-[32px]">{phase.phase_name}</div>
               <p className="text-[#475467]">{phase.phase_description}</p>
               <div>
                 <div className="pt-[18px] pb-8 px-8 mt-[32px] rounded-3xl bg-[#ebedee] max-w-[760px]">
+                  {/*--------chủ đề --------- */}
+
                   {phase.tasks_sections.map((section) => (
                     <div>
                       <div>
                         <img src={target_tiny} alt="mySvgImage" className="mt-[12px]" />
                       </div>
-                      {/*  ---------                    tuần           ----------           */}
+                      {/*  ---------bài học----*/}
                       <div className="text-[#101828] font-semibold text-[18px] mt-[12px]">{section.name}</div>
                       <div className="text-[#475467] text-[14px]">{section.description}</div>
                       <div className=" mt-[24] rounded-3xl">
