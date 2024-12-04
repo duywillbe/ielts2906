@@ -41,11 +41,11 @@ function App() {
                 </div>
                 {/* ---hỗ trợ và cài đặt --- */}
             </div>
-            {/* -------- content bên phải--------*/}
-            <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-64 mr-0 my-0 p-8 ">
-                {/*----- header-------*/}
-                <div className="flex ">
-                    <div className="bg-[#7A5Af8] w-[1096px] h-[300px] p-8 rounded-2xl  ">
+            {/* ----------- content bên phải-----------*/}
+            <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-[224px]">
+                {/*------------- header----------*/}
+                <div className="">
+                    <div className="bg-[#7A5Af8] w-[1096px] mt-8 mb-0 mx-8 h-[300px] p-8 rounded-2xl  ">
                         <div className="flex text-white ">
                             {/*----- left-------*/}
                             <div>
@@ -84,24 +84,67 @@ function App() {
                         </div>
                     </div>
                 </div>
-
-                {/* Nội dung bài học- */}
-                <div className="">
+                {/*----- Nội dung bài học------- */}
+                <div className="pt-0 pb-8 px-8 ">
                     {phases.map((phase) => (
-                        <div className="">
-                            <div>{phase.phase_name}</div>
-                            <p>{phase.phase_description}</p>
+                        <div>
+                            <div className="font-semibold text-2xl mt-[32px]">{phase.phase_name}</div>
+                            <p className="text-[#475467]">{phase.phase_description}</p>
                             <div>
-                                {phase.tasks_sections.map((section) => (
-                                    <div>
-                                        <div> {section.name}</div>
+                                <div className="pt-[18px] pb-8 px-8 mt-[32px] rounded-3xl bg-[#ebedee] max-w-[760px]">
+                                    {phase.tasks_sections.map((section) => (
                                         <div>
-                                            {section.tasks.map((tasks) => (
-                                                <div>{tasks.name}</div>
-                                            ))}
+                                            <div>
+                                                <img
+                                                    // src={require('./assets/icon/target-tiny.svg').default}
+                                                    alt="mySvgImage"
+                                                    className="mt-[14px]"
+                                                />
+                                            </div>
+                                            <div className="text-[#101828] font-semibold text-[18px] ">
+                                                {section.name}
+                                            </div>
+                                            <div className="text-[#475467] text-[14px]">{section.description}</div>
+                                            <div className=" mt-[24] rounded-3xl">
+                                                <div className="flex">
+                                                    <div className="w-full">
+                                                        {section.tasks.map((tasks) => (
+                                                            /* --backgound từng bài học--- */
+                                                            <div className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
+                                                                <div className="flex">
+                                                                    <div>
+                                                                        <img
+                                                                            // src={
+                                                                            //     require('./assets/icon/lesson.svg')
+                                                                            //         .default
+                                                                            // }
+                                                                            alt="mySvgImage"
+                                                                        />
+                                                                    </div>
+                                                                    <div className="ml-[14px] ">
+                                                                        <div className="w-[0px]">
+                                                                            <p className="brake-works">{tasks.name}</p>
+                                                                        </div>
+
+                                                                        <div>
+                                                                            <p className="text-[12px] font-extralight">
+                                                                                {tasks.estimate_time} min
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <button className="  px-4 bg-[#1890FF] text-[white] rounded-[12px] font-semibold">
+                                                                    Bắt đầu
+                                                                </button>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                ))}
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     ))}
