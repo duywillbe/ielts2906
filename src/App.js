@@ -12,10 +12,19 @@ import chart from './assets/icon/bar-chart-square-02.svg';
 
 function App() {
   const [phases] = useState(datalesson.body.phases);
+  const [isShowDetail, setIsShowdetail] = useState(true);
+  const handleHideShow = () => {
+    let currentStatus;
+    if (isShowDetail === true) currentStatus = false;
+    if (isShowDetail === false) currentStatus = true;
+
+    setIsShowdetail(!isShowDetail);
+  };
 
   return (
     <div className="flex ">
       {/* ------------------------------------Side bar left -----------------------------*/}
+      <div>a</div>
       <div className=" pt-[32px] pl-[24px] w-[280px] pl-6 pt-8 justify-start h-[100%] fixed">
         <div className=" flex gap-[4px]">
           <img src={microphone} alt="mySvgImage" />
@@ -59,8 +68,7 @@ function App() {
               <div>
                 <h1 className="leading-[1.2] text-3xl font-semibold ">IELTS Speaking nền tảng</h1>
                 <p className="text-white leading-[1.2] mt-4 font-medium">
-                  Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong
-                  đề thi. Nâng cao vốn từ vựng và ngữ pháp để đáp ứng đầu ra 5.0
+                  Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong đề thi. Nâng cao vốn từ vựng và ngữ pháp để đáp ứng đầu ra 5.0
                 </p>
                 <div className="mt-8 flex text-white gap-10  font-bold">
                   <img src={require('./assets/images/Progressbar.svg').default} alt="mySvgImage" />
@@ -76,19 +84,11 @@ function App() {
                 </div>
                 <button className="text-[#344054] px-6 py-3 bg-white rounded-[50px] flex gap-[5px] mt-8 font-bold">
                   Tiếp tục bài học
-                  <img
-                    src={require('./assets/images/arrow-circle-broken-right.svg').default}
-                    alt="mySvgImage"
-                    className="ml-1"
-                  />
+                  <img src={require('./assets/images/arrow-circle-broken-right.svg').default} alt="mySvgImage" className="ml-1" />
                 </button>
               </div>
               {/*----- header right-------*/}
-              <img
-                src={require('./assets/images/avatar.svg').default}
-                alt="mySvgImage"
-                className="relative right-[20px] bottom-8"
-              />
+              <img src={require('./assets/images/avatar.svg').default} alt="mySvgImage" className="relative right-[20px] bottom-8" />
             </div>
           </div>
         </div>
@@ -110,43 +110,56 @@ function App() {
                       </div>
                       {/*  ---------bài học----*/}
                       <div className="text-[#101828] font-semibold text-[18px] mt-[12px]">{section.name}</div>
-                      <div className="text-[#475467] text-[14px]">{section.description}</div>
+                      <div className="text-[#475467] text-[14px]">
+                        {section.description}
+                        <p
+                          className="text-[#2525e2] mt-[12px]"
+                          onClick={() => {
+                            handleHideShow();
+                          }}
+                        >
+                          {/* toán tử ba ngôi  */}
+                          {`${isShowDetail ? 'Ẩn' : 'Hiện'} danh sách`}
+                        </p>
+                      </div>
                       <div className=" mt-[24] rounded-3xl">
                         <div className="flex">
                           {/* --backgound từng bài học--- */}
-                          <div className="w-full">
-                            {section.tasks.map((tasks) => (
-                              <div className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
-                                <div className="flex">
-                                  <div>
-                                    <img src={avt_lesson} alt="" />
-                                  </div>
-                                  <div className="ml-[14px] ">
-                                    <div className="w-[300px]">
-                                      <p className="brake-works">{tasks.name}</p>
-                                    </div>
+                          {isShowDetail && (
+                            <div className="w-full">
+                              {section.tasks.map((task) => (
+                                <div className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
+                                  <div className="flex">
                                     <div>
-                                      <p className="text-[12px] font-extralight">{tasks.estimate_time} min</p>
+                                      <img src={avt_lesson} alt="" />
+                                    </div>
+                                    <div className="ml-[14px] ">
+                                      <div className="w-[300px]">
+                                        <p className="brake-works">{task.name}</p>
+                                      </div>
+                                      <div>
+                                        <p className="text-[12px] font-extralight">{task.estimate_time} min</p>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
 
-                                <button className="  px-4 bg-[#1890FF] text-[white] rounded-[12px] font-semibold">
-                                  Bắt đầu
-                                </button>
-                              </div>
-                            ))}
-                          </div>
+                                  <button className="  px-4 bg-[#1890FF] text-[white] rounded-[12px] font-semibold">Bắt đầu</button>
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
                   ))}
                 </div>
+                handleHideShow
               </div>
             </div>
           ))}
         </div>
       </div>
+      <div></div>
     </div>
   );
 }
