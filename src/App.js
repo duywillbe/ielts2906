@@ -9,6 +9,7 @@ import home_line from './assets/icon/home-line.svg';
 import dethi from './assets/icon/dethi.svg';
 import phongthi from './assets/icon/phongthi.svg';
 import chart from './assets/icon/bar-chart-square-02.svg';
+import SidebarLeft from './components/sidebarLeft';
 
 function App() {
   const [phases] = useState(datalesson.body.phases);
@@ -24,40 +25,8 @@ function App() {
   return (
     <div className="flex ">
       {/* ------------------------------------Side bar left -----------------------------*/}
-      <div>a</div>
-      <div className=" pt-[32px] pl-[24px] w-[280px] pl-6 pt-8 justify-start h-[100%] fixed">
-        <div className=" flex gap-[4px]">
-          <img src={microphone} alt="mySvgImage" />
-          <img src={ielts_coach} alt="mySvgImage" />
-        </div>
-        {/* ---menulist --- */}
-        <div className="flex flex-col content-between">
-          <div className="flex flex-col mt-[12px]">
-            <a className="flex mt-5" href="#!">
-              <img src={home_line} alt="mySvgImage" />
-              <p className="ml-[12px] font-semibold">Lộ Trình</p>
-            </a>
-            <a className="flex mt-5" href="#!">
-              <img src={dethi} alt="mySvgImage" />
-              <p className="ml-[12px] font-semibold">Chủ Đề </p>
-            </a>
-            <a className="flex mt-5" href="#!">
-              <img src={phongthi} alt="mySvgImage" />
-              <p className="ml-[12px] font-semibold">Phòng Tập</p>
-            </a>
-            <a className="flex mt-5" href="#!">
-              <img src={chart} alt="mySvgImage" />
-              <p className="ml-[12px] font-semibold">Phòng thi</p>
-            </a>
-            <a className="flex mt-5" href="#!">
-              <img src={require('./assets/icon/bar-chart-square-02.svg').default} alt="mySvgImage" />
-              <p className="ml-[12px] font-semibold">Báo cáo</p>
-            </a>
-          </div>
-          <div className="flex"></div>
-        </div>
-        {/* ---hỗ trợ và cài đặt --- */}
-      </div>
+
+      <SidebarLeft />
       {/* ----------------------------------- Content right------------------------------*/}
       <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-[224px]">
         {/*--------------------- Header------------------------*/}
@@ -102,7 +71,6 @@ function App() {
               <div>
                 <div className="pt-[18px] pb-8 px-8 mt-[32px] rounded-3xl bg-[#ebedee] max-w-[760px]">
                   {/*--------chủ đề --------- */}
-
                   {phase.tasks_sections.map((section) => (
                     <div>
                       <div>
