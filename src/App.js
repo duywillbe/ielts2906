@@ -10,6 +10,7 @@ import dethi from './assets/icon/dethi.svg';
 import phongthi from './assets/icon/phongthi.svg';
 import chart from './assets/icon/bar-chart-square-02.svg';
 import SidebarLeft from './components/sidebarLeft';
+import Weeks from './components/weeks';
 
 function App() {
   const [phases] = useState(datalesson.body.phases);
