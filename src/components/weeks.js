@@ -17,7 +17,7 @@ const Weeks = ({ section }) => {
 
   return (
     <div>
-      <div className="bg-[#48c9b0]">
+      <div className="">
         <div>
           <img src={target_tiny} alt="mySvgImage" className="mt-[12px]" />
         </div>
@@ -32,7 +32,9 @@ const Weeks = ({ section }) => {
             }}
           >
             {/* toán tử ba ngôi  */}
-            {`${isShowDetail ? 'Ẩn' : 'Hiện'} danh sách`}
+            <div>
+              <button className="">{` ${isShowDetail ? 'Ẩn bớt' : 'Xem chi tiết'}`}</button>
+            </div>
           </p>
         </div>
         <div className=" mt-[24] rounded-3xl">

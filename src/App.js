@@ -8,14 +8,6 @@ import Weeks from './components/weeks';
 
 function App() {
   const [phases] = useState(datalesson.body.phases);
-  const [isShowDetail, setIsShowdetail] = useState(true);
-  const handleHideShow = () => {
-    let currentStatus;
-    if (isShowDetail === true) currentStatus = false;
-    if (isShowDetail === false) currentStatus = true;
-
-    setIsShowdetail(!isShowDetail);
-  };
 
   return (
     <div className="flex ">
@@ -68,7 +60,7 @@ function App() {
                   {/*--------chủ đề --------- */}
                   {phase.tasks_sections.map((section, index) => (
                     /*----------- Weeks -----------*/
-                    <Weeks key={index} section={section} a={'ssss'} />
+                    <Weeks key={index} section={section} />
                   ))}
                 </div>
               </div>
