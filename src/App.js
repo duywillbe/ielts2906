@@ -18,7 +18,7 @@ function App() {
       <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-[224px]">
         {/*--------------------- Header------------------------*/}
         <div className="">
-          <div className="bg-[#7A5Af8] w-[1096px] mt-8 mb-0 mx-8 h-[300px] p-8 rounded-2xl  ">
+          <div className="bg-[#7A5Af8] max-w-[1096px] w-full mt-8 mb-0 mx-8 p-8 rounded-2xl  relative">
             <div className="flex text-white ">
               {/*----- header left--------*/}
               <div>
@@ -44,7 +44,7 @@ function App() {
                 </button>
               </div>
               {/*----- header right-------*/}
-              <img src={require('./assets/images/avatar.svg').default} alt="mySvgImage" className="relative right-[20px] bottom-8" />
+              <img src={require('./assets/images/avatar.svg').default} alt="mySvgImage" className="absolute right-[20px] bottom-0" />
             </div>
           </div>
         </div>

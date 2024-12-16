@@ -8,10 +8,6 @@ const Weeks = ({ section }) => {
   const [phases] = useState(datalesson.body.phases);
   const [isShowDetail, setIsShowdetail] = useState(true);
   const handleHideShow = () => {
-    let currentStatus;
-    if (isShowDetail === true) currentStatus = false;
-    if (isShowDetail === false) currentStatus = true;
-
     setIsShowdetail(!isShowDetail);
   };
 
