@@ -48,7 +48,7 @@ function App() {
                   </div>
                   <div className="flex">
                     <img src={require('./assets/icon/documenticon.svg').default} alt="mySvgImage" />
-                    <p className="text-white">35 Bài hc</p>
+                    <p className="text-white">35 Bài học</p>
                   </div>
                 </div>
                 <button className="text-[#344054] px-6 py-3 bg-white rounded-[50px] flex gap-[5px] mt-8 font-bold">
