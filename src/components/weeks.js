@@ -3,25 +3,27 @@ import { useState } from 'react';
 import target_tiny from '../assets/icon/target-tiny.svg';
 
 const Weeks = ({ section, week }) => {
-  const [isShowDetail, setIsShowdetail] = useState(true);
+  // State mặc định là false để ẩn danh sách
+  const [isShowDetail, setIsShowdetail] = useState(false);
 
+  // thay đổi trạng thái khi click vào nút
   const handleHideShow = () => {
     setIsShowdetail(!isShowDetail);
   };
 
   return (
     <div>
-      <div className="mt-[12px]">
+      <div className="mt-[25px] rounded-[10px] hover">
         <div className="flex gap-[3px]">
           <img src={target_tiny} alt="mySvgImage" />
           <div className="ml-[3px] font-semibold text-[15px] text-[#7d8892]">WEEK {week}</div>
         </div>
         {/*  ---------bài học----*/}
-        <div className="text-[#101828] font-semibold text-[18px] mt-[12px]">{section.name}</div>
+        <div className="text-[#101828] font-semibold text-[18px] mt-[6px]">{section.name}</div>
         <div className="text-[#475467] text-[14px]">
           {section.description}
           <p
-            className="text-[#2525e2] mt-[12px]"
+            className="text-[#2525e2] mt-[6px]"
             onClick={() => {
               handleHideShow();
             }}
