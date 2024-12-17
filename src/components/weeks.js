@@ -2,11 +2,14 @@ import datalesson from '../assets/databaihocIELTS/databaihocielts.json';
 import React from 'react';
 import { useState } from 'react';
 import target_tiny from '../assets/icon/target-tiny.svg';
-import avt_lesson from '../assets/icon/avt_lesson.svg';
 
 const Weeks = ({ section }) => {
-  const [phases] = useState(datalesson.body.phases);
   const [isShowDetail, setIsShowdetail] = useState(true);
+  const [tasksSections] = useState(datalesson.body.phases.tasks_sections);
+  // const Weekcout = tasksSections.map((item, index) => {
+  //   return `WEEK ${index + 1}`;
+  // });
+
   const handleHideShow = () => {
     setIsShowdetail(!isShowDetail);
   };
@@ -14,8 +17,9 @@ const Weeks = ({ section }) => {
   return (
     <div>
       <div className="">
-        <div>
+        <div className="flex">
           <img src={target_tiny} alt="mySvgImage" className="mt-[12px]" />
+          {/* <div>{Weekcout}</div> */}
         </div>
         {/*  ---------bài học----*/}
         <div className="text-[#101828] font-semibold text-[18px] mt-[12px]">{section.name}</div>
@@ -38,11 +42,11 @@ const Weeks = ({ section }) => {
             {/* --backgound từng bài học--- */}
             {isShowDetail && (
               <div className="w-full">
-                {section.tasks.map((task) => (
-                  <div className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
+                {section.tasks.map((task, index) => (
+                  <div key={index} className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
                     <div className="flex">
                       <div>
-                        <img src={avt_lesson} alt="" />
+                        <img src={task.image} alt="" className="max-w-[60px] rounded-[100%]" />
                       </div>
                       <div className="ml-[14px] ">
                         <div className="w-[300px]">

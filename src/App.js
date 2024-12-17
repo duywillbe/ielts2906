@@ -1,8 +1,7 @@
 import datalesson from './assets/databaihocIELTS/databaihocielts.json';
 import React from 'react';
 import { useState } from 'react';
-import target_tiny from './assets/icon/target-tiny.svg';
-import avt_lesson from './assets/icon/avt_lesson.svg';
+
 import SidebarLeft from './components/sidebarLeft';
 import Weeks from './components/weeks';
 
@@ -15,7 +14,7 @@ function App() {
 
       <SidebarLeft />
       {/* ----------------------------------- Content right------------------------------*/}
-      <div className=" w-full max-w-[caclc(100%-0px) mx-auto h-[1500px] ml-[224px]">
+      <div className=" w-full max-w-[calc(100%-3px) mx-auto h-[1500px] ml-[224px]">
         {/*--------------------- Header------------------------*/}
         <div className="">
           <div className="bg-[#7A5Af8] max-w-[1096px] w-full mt-8 mb-0 mx-8 p-8 rounded-2xl  relative">
@@ -23,9 +22,11 @@ function App() {
               {/*----- header left--------*/}
               <div>
                 <h1 className="leading-[1.2] text-3xl font-semibold ">IELTS Speaking nền tảng</h1>
-                <p className="text-white leading-[1.2] mt-4 font-medium">
-                  Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong đề thi. Nâng cao vốn từ vựng và ngữ pháp để đáp ứng đầu ra 5.0
+                <p className="text-white leading-[1.2] mt-4 font-medium max-w-[650px]">
+                  Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong đề thi. Nâng cao vốn từ vựng và
+                  ngữ pháp để đáp ứng đầu ra 5.0
                 </p>
+                {/*----- tiến độ --------*/}
                 <div className="mt-8 flex text-white gap-10  font-bold">
                   <img src={require('./assets/images/Progressbar.svg').default} alt="mySvgImage" />
                   10% hoàn thành
