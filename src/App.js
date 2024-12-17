@@ -52,8 +52,8 @@ function App() {
         {/*--------------- Nội dung bài học------------------- */}
         <div className="pt-0 pb-8 px-8 ">
           {/*--------part --------- */}
-          {phases.map((phase) => (
-            <div>
+          {phases.map((phase, index) => (
+            <div key={index}>
               <div className="font-semibold text-2xl mt-[32px]">{phase.phase_name}</div>
               <p className="text-[#475467]">{phase.phase_description}</p>
               <div>
@@ -61,7 +61,7 @@ function App() {
                   {/*--------chủ đề --------- */}
                   {phase.tasks_sections.map((section, index) => (
                     /*----------- Weeks -----------*/
-                    <Weeks key={index} section={section} />
+                    <Weeks key={index} section={section} week={index + 1} />
                   ))}
                 </div>
               </div>

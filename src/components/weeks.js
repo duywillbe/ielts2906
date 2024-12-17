@@ -1,14 +1,9 @@
-import datalesson from '../assets/databaihocIELTS/databaihocielts.json';
 import React from 'react';
 import { useState } from 'react';
 import target_tiny from '../assets/icon/target-tiny.svg';
 
-const Weeks = ({ section }) => {
+const Weeks = ({ section, week }) => {
   const [isShowDetail, setIsShowdetail] = useState(true);
-  const [tasksSections] = useState(datalesson.body.phases.tasks_sections);
-  // const Weekcout = tasksSections.map((item, index) => {
-  //   return `WEEK ${index + 1}`;
-  // });
 
   const handleHideShow = () => {
     setIsShowdetail(!isShowDetail);
@@ -16,10 +11,10 @@ const Weeks = ({ section }) => {
 
   return (
     <div>
-      <div className="">
-        <div className="flex">
-          <img src={target_tiny} alt="mySvgImage" className="mt-[12px]" />
-          {/* <div>{Weekcout}</div> */}
+      <div className="mt-[12px]">
+        <div className="flex gap-[3px]">
+          <img src={target_tiny} alt="mySvgImage" />
+          <div className="ml-[3px] font-semibold text-[15px] text-[#7d8892]">WEEK {week}</div>
         </div>
         {/*  ---------bài học----*/}
         <div className="text-[#101828] font-semibold text-[18px] mt-[12px]">{section.name}</div>
