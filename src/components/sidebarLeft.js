@@ -1,8 +1,5 @@
-import datalesson from '../assets/databaihocIELTS/databaihocielts.json';
 import React from 'react';
 import ielts_coach from '../assets/images/IELTS Coach.svg';
-import target_tiny from '../assets/icon/target-tiny.svg';
-import avt_lesson from '../assets/icon/avt_lesson.svg';
 import microphone from '../assets/images/microphone.svg';
 import home_line from '../assets/icon/home-line.svg';
 import dethi from '../assets/icon/dethi.svg';
