@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import ielts_coach from '../assets/images/IELTS Coach.svg';
 import microphone from '../assets/images/microphone.svg';
 import home_line from '../assets/icon/home-line.svg';
@@ -8,10 +9,25 @@ import chart from '../assets/icon/barChart.svg';
 import barChart from '../assets/icon/barChart.svg';
 
 const SidebarLeft = () => {
+  // State mặc định là false để ẩn danh sách
+  const [ismenuShow, setMenuShow] = useState(false);
+
+  // thay đổi trạng thái khi click vào nút menu
+  const menuClick = () => {
+    setMenuShow(!ismenuShow);
+  };
+
+  //ẩn navbar khi click ra ngoài
+
   return (
     <div>
       <div>
-        <div className="ipad:hidden flex items-center justify-between pt-2 pb-0 px-4">
+        <div
+          className="ipad:hidden flex items-center justify-between pt-2 pb-0 px-4 cursor-pointer"
+          onClick={() => {
+            menuClick();
+          }}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -36,9 +52,12 @@ const SidebarLeft = () => {
           </div>
         </div>
       </div>
-      <div className="hidden ipad:block">
+      <div
+        className={`${ismenuShow ? 'block' : 'hidden'} ipad:block fixed z-[1] bg-[#dd9b9b] h-full `}
+      >
+        <div className="w-full h-full bg-[black] z-[2] "></div>
         {/*------- MENU -------*/}
-        <div className=" pt-[32px] pl-[24px] pl-6 pt-8 justify-start h-[100%] fixed">
+        <div className=" pt-[32px] pl-[24px] pl-6 pt-8 justify-start h-full z-[3] ">
           <div className=" flex gap-[4px] ">
             <img src={microphone} alt="mySvgImage" />
             <img src={ielts_coach} alt="mySvgImage" />
