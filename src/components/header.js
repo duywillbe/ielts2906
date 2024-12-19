@@ -14,8 +14,8 @@ const Header = () => {
           <div>
             <h1 className="leading-[1.2] text-3xl font-semibold ">IELTS Speaking nền tảng</h1>
             <p className="text-white leading-[1.2] mt-4 font-medium max-w-[650px]">
-              Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được sử dụng trong đề thi. Nâng cao vốn từ vựng và ngữ
-              pháp để đáp ứng đầu ra 5.0
+              Bước đầu làm quen với cấu trúc bài thi IELTS speaking và các chủ đề cơ bản thường được
+              sử dụng trong đề thi. Nâng cao vốn từ vựng và ngữ pháp để đáp ứng đầu ra 5.0
             </p>
             {/*----- tiến độ --------*/}
             <div className="mt-8 flex text-white gap-10  font-bold">
@@ -36,7 +36,11 @@ const Header = () => {
             </button>
           </div>
           {/*----- header right-------*/}
-          <img src={avatar} alt="mySvgImage" className="absolute right-[20px] bottom-0" />
+          <img
+            src={avatar}
+            alt="mySvgImage"
+            className="hidden ipad:block absolute right-[20px] bottom-0"
+          />
         </div>
       </div>
     </div>

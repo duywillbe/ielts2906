@@ -1,7 +1,6 @@
 import datalesson from './assets/databaihocIELTS/databaihocielts.json';
 import React from 'react';
 import { useState } from 'react';
-
 import SidebarLeft from './components/sidebarLeft';
 import Weeks from './components/weeks';
 import Header from './components/header';
@@ -10,12 +9,12 @@ function App() {
   const [phases] = useState(datalesson.body.phases);
 
   return (
-    <div className="flex ">
+    <div className="ipad:flex flex-col ">
       {/* ------------------------------------Side bar left -----------------------------*/}
 
       <SidebarLeft />
       {/* ----------------------------------- Content right------------------------------*/}
-      <div className=" w-full max-w-[calc(100%-3px) mx-auto h-[1500px] ml-[224px]">
+      <div className=" w-full max-w-[calc(100%-3px) mx-auto h-[1500px] ipad:ml-[224px] ml-0">
         {/*--------------------- Header------------------------*/}
         <Header />
         {/*--------------- Nội dung bài học------------------- */}

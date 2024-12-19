@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'GoldmanBold';
-    src:
-        local('GoldmanBold'),
-        url('./fonts/Jura/static/Jura-Medium.ttf') format('truetype');
-    font-weight: bold;
+  font-family: 'GoldmanBold';
+  src:
+    local('GoldmanBold'),
+    url('./fonts/Jura/static/Jura-Medium.ttf') format('truetype');
+  font-weight: bold;
+}
+
+.menu-hover {
+  @apply cursor-pointer py-1 hover:text-[#7a5af8] relative after:absolute 
+    after:bottom-0 after:left-0 after:bg-[#7a5af8] after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out  after:duration-300;
 }

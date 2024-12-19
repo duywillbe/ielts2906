@@ -30,7 +30,7 @@ const Weeks = ({ section, week }) => {
           >
             {/* toán tử ba ngôi  */}
             <div>
-              <button className="">{` ${isShowDetail ? 'Ẩn bớt' : 'Xem chi tiết'}`}</button>
+              <button className="cursor-pointer py-1 hover:text-[#000000] ">{` ${isShowDetail ? 'Ẩn bớt' : 'Xem chi tiết'}`}</button>
             </div>
           </p>
         </div>
@@ -40,7 +40,10 @@ const Weeks = ({ section, week }) => {
             {isShowDetail && (
               <div className="w-full">
                 {section.tasks.map((task, index) => (
-                  <div key={index} className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between ">
+                  <div
+                    key={index}
+                    className="bg-[white] flex p-8 mt-[14px] rounded-3xl font-semibold  justify-between "
+                  >
                     <div className="flex">
                       <div>
                         <img src={task.image} alt="" className="max-w-[60px] rounded-[100%]" />
@@ -55,7 +58,9 @@ const Weeks = ({ section, week }) => {
                       </div>
                     </div>
 
-                    <button className="  px-4 bg-[#1890FF] text-[white] rounded-[12px] font-semibold">Bắt đầu</button>
+                    <button className="  px-4 bg-[#1890FF] text-[white] rounded-[12px] font-semibold">
+                      Bắt đầu
+                    </button>
                   </div>
                 ))}
               </div>
