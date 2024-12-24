@@ -26,7 +26,7 @@ const SidebarLeft = () => {
           </a>
           <a className="flex mt-5" href="#!">
             <img src={phongthi} alt="mySvgImage" />
-            <p className="ml-[12px] font-semibold">Phòng Tập</p>
+            <p className="ml-[12px] font-semibold">Phòng Ttập</p>
           </a>
           <a className="flex mt-5" href="#!">
             <img src={chart} alt="mySvgImage" />
