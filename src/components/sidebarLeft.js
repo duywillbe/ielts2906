@@ -8,7 +8,7 @@ import chart from '../assets/icon/bar-chart-square-02.svg';
 
 const SidebarLeft = () => {
   return (
-    <div className=" pt-[32px] pl-[24px] w-[280px] pl-6 pt-8 justify-start h-[100%] fixed">
+    <div className=" pt-[32px] pl-[24px] w-[280px] justify-start h-[100%] fixed">
       <div className=" flex gap-[4px]">
         <img src={microphone} alt="mySvgImage" />
         <img src={ielts_coach} alt="mySvgImage" />
@@ -33,7 +33,7 @@ const SidebarLeft = () => {
             <p className="ml-[12px] font-semibold">Phòng thi</p>
           </a>
           <a className="flex mt-5" href="#!">
-            <img src={require('../assets/icon/bar-chart-square-02.svg').default} alt="mySvgImage" />
+            <img src={chart} alt="mySvgImage" />
             <p className="ml-[12px] font-semibold">Báo cáo</p>
           </a>
         </div>
