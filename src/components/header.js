@@ -8,7 +8,7 @@ import avatar from '../assets/images/avatar.svg';
 const Header = () => {
   return (
     <div className="">
-      <div className="bg-[#7A5Af8] max-w-[1096px] w-full mt-8 mb-0 mx-8 p-8 rounded-2xl  relative">
+      <div className="bg-[#7A5Af8] max-w-[1096px] w-full mt-8 mb-0 mx-8 p-8 rounded-2xl  relative max-ipad:(bg-white text-black)">
         <div className="flex text-white ">
           {/*----- header left--------*/}
           <div>
@@ -36,7 +36,7 @@ const Header = () => {
             </button>
           </div>
           {/*----- header right-------*/}
-          <img src={avatar} alt="mySvgImage" className="absolute right-[20px] bottom-0" />
+          <img src={avatar} alt="mySvgImage" className="relative right-0" />
         </div>
       </div>
     </div>
